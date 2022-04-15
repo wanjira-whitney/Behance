@@ -1,0 +1,328 @@
+body{
+    margin:0;
+    padding:0;
+    background: rgb(215, 247, 252);
+}
+.one{
+    display: flex;
+    margin-left: 100px;
+   
+}
+.logo{
+    display: flex;
+}
+nav li {
+
+    list-style-type: disc;
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+}
+nav {
+    text-align: right;
+    font-size: 25px;
+    text-decoration: none;
+}
+.intro{
+    display: flex;
+    margin-bottom: -50%;
+    margin: 50px;
+}
+.intro h2{
+    color: rgb(17, 17, 17);
+    margin: 50px;
+}
+.intro h3{
+    color: rgb(0, 217, 255);
+    font-size: 22px;
+    padding: 1px;
+}
+.btn{
+    color: rgb(250, 251, 252);
+    background-color: rgb(13, 151, 175);
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.text{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.text h4{
+    color: orange;
+
+}
+
+.text h1{
+    font-size: 50px;
+    font-style: oblique;
+    color: rgb(16, 18, 19);
+
+}
+.text p{
+    font-size: 20px;
+    font-style: italic;
+    color:black;
+    margin-bottom: 50px;
+
+
+}
+.image{
+   position: absolute;
+    border: 80px solid rgb(204, 224, 228);
+    width: 25%;
+    height: 55%;
+    border-width: 30px;
+    margin-left: 55%;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+.services{
+    background-color: rgb(239, 253, 255);
+    padding: 10px;
+   
+}
+h3{
+    font-size: 20px;
+}
+
+.topservice{
+    display: flex;
+   
+}
+.ts2{
+    padding-left: 500px;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.services h2{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.rowone{
+    display: flex;
+    padding: 10px;
+    margin: 40px;
+}
+.first{
+    border: rgb(214, 212, 212);
+    height: 200px;
+    background-color: white;
+    margin-top: 5%;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    
+    
+}
+.sec{
+    border: rgb(214, 212, 212);
+    height: 200px;
+    background-color: white;
+    margin-top: 5%;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    
+    
+
+}
+.third{
+    border: rgb(214, 212, 212);
+    height: 200px;
+    background-color: white;
+    margin-top: 5%;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+
+}
+
+.rowtwo{
+    display: flex;
+    padding: 10px;
+    margin: 40px;
+}
+.forth{
+    border: rgb(214, 212, 212);
+    height: 200px;
+    background-color: white;
+    margin-top: 5%;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    
+
+}
+.fifth{
+    border: rgb(214, 212, 212);
+    height: 200px;
+    background-color: white;
+    margin-top: 5%;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+     
+
+}
+.sixth{
+    border: rgb(214, 212, 212);
+    height: 200px;
+    background-color: white;
+    margin-top: 5%;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    
+
+}
+
+.docbody{
+    display: flex;
+    
+}
+
+.doc-image{
+    border-radius: 5%;
+    margin: 100px;
+    border: rgb(103, 171, 192);
+    height: 450px;
+    background-color: rgb(218, 230, 233);
+    margin-top: 15%;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+     
+
+}
+.doctors h2{
+    font-size: 40px;
+
+}
+
+.doctext p{
+    font-size: 20px ;
+}
+.doctext{
+    margin: 100px;
+    margin-top: 60px;
+}
+.contact-btn{
+    color: rgb(250, 251, 252);
+    background-color: rgb(13, 151, 175);
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.about{
+    background-color: rgb(239, 253, 255);
+}
+
+.about-intro{
+    display: flex;
+    
+}
+.about-body{
+    display: flex;
+    margin-top: 5px;
+}
+.about-body h1{
+    font-size: 90px;
+    font-style: oblique;
+    color: rgb(219, 251, 255);
+    margin-top: 10px;
+}
+.about-intro h2{
+    font-size: 40px;
+    margin: 80px;
+}
+.about-intro p{
+    font-size: 20px;
+    margin: 100px;
+
+}
+.about-body h3{
+    font-size: 25px;
+    margin-top: 5px;
+   
+    
+}
+.about-body p{
+    font-size: 20px;
+    
+}
+
+.interested{
+    margin: 100px;
+
+}
+.cheapandfriendly{
+    margin: 100px;
+
+}
+.contacts{
+    display: flex;
+    background-color: rgb(239, 253, 255);
+}
+.contacts h3{
+    font-size: 20px;
+}
+.contacts p{
+    font-size: 18px;
+
+}
+
+.con1{
+    margin: 80px;
+}
+
+.con2{
+    margin: 150px;
+    margin-top: 80px;
+}
+
+.con3{
+    margin: 80px;
+}
+
+.con4{
+    margin: 80px;
+}
+
+.view{
+    display: flex;
+}
+.Images{
+    display: flex;
+    margin-top: 50px ;
+}
+.img2{
+    margin: 10px;
+}
+.img3{
+    margin-left: 10px;
+}
